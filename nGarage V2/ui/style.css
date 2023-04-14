@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Play&family=Ubuntu&display=swap');
+
+#container {
+    position: absolute;
+    top: 12%;
+    left: 16%;
+    width: 1300px;
+    height: 800px;
+    background-color: #202128;
+    border-radius: 20px;
+}
+
+#vehlist {
+    position: absolute;
+    top: 15%;
+    left: 3.7%;
+    width: 1200px;
+    height: 650px;
+    border-radius: 20px;
+    background-color: #202128;
+    border-radius: 1.5vh 10px 10px 1.5vh;
+    overflow: auto;
+}
+
+.vehlist {
+    position: relative;
+    display: inline-block;
+    border-radius: 10px;
+    left: 2%;
+    top: 5px;
+    width: 1150px;
+    height: 190px;
+    background-color: #202128;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.6);
+    transition: 0.4s;
+    overflow: auto;
+}
+
+.garage-name {
+    position: absolute;
+    text-align: center;
+    left: 41.5%;
+    top: 5%;
+    font-size: 27px;
+    color: rgb(143, 143, 143);
+    font-family: 'Ubuntu', sans-serif;
+    padding: 9px;
+    transition: 0.3s;
+}
+
+#close-btn {
+    position: absolute;
+    left: 0%;
+    top: 3%;
+    height: 50px;
+    width: 150px;
+    padding-left: 10px;
+    padding-right: 5px;
+    border-radius: 5px;
+    background-color: #202128;
+    font-size: 19px;
+    color: #fff;
+    border: none;
+    font-family: 'Anek Malayalam', sans-serif;
+    transition: 0.3s;
+}
+
+#close-btn:hover {
+    position: absolute;
+    left: 2%;
+    top: 3%;
+    height: 50px;
+    width: 150px;
+    padding-left: 10px;
+    padding-right: 5px;
+    border-radius: 5px;
+    background-color: #16161a;
+    font-size: 19px;
+    color: #fff;
+    font-family: 'Anek Malayalam', sans-serif;
+    transition: 0.3s;
+}
+
+.vehlist .stored-icon {
+    position: absolute;
+    left: 5%;
+    top: 30%;
+    width: 70px;
+    height: 70px;
+}
+
+.vehlist .veh-name {
+    position: absolute;
+    text-align: center;
+    left: 12%;
+    top: 26%;
+    font-size: 30px;
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 9px;
+    transition: 0.3s;
+}
+
+.vehlist .plate {
+    position: absolute;
+    text-align: center;
+    left: 40%;
+    top: 10%;
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 9px;
+    transition: 0.3s;
+}
+
+.vehlist .fuel {
+    position: absolute;
+    left: 40.8%;
+    top: 40%;
+    width: 20px;
+    height: 20px;
+}
+
+.vehlist .fuel-lvl {
+    position: absolute;
+    text-align: center;
+    left: 43%;
+    top: 30%;
+    font-size: 15px;
+    color: rgb(143, 143, 143);
+    font-family: 'Ubuntu', sans-serif;
+    padding: 9px;
+    transition: 0.3s;
+}
+
+.vehlist .body-icon {
+    position: absolute;
+    left: 40.8%;
+    top: 56%;
+    width: 20px;
+    height: 20px;
+}
+
+.vehlist .body-lvl {
+    position: absolute;
+    text-align: center;
+    left: 43%;
+    top: 46.1%;
+    font-size: 15px;
+    color: rgb(143, 143, 143);
+    font-family: 'Ubuntu', sans-serif;
+    padding: 9px;
+    transition: 0.3s;
+}
+
+.vehlist .engine-icon {
+    position: absolute;
+    left: 40.8%;
+    top: 73%;
+    width: 20px;
+    height: 20px;
+}
+
+.vehlist .engine-lvl {
+    position: absolute;
+    text-align: center;
+    left: 43%;
+    top: 63%;
+    font-size: 15px;
+    color: rgb(143, 143, 143);
+    font-family: 'Ubuntu', sans-serif;
+    padding: 9px;
+    transition: 0.3s;
+}
+
+.vehlist .btn {
+    position: absolute;
+    left: 70%;
+    top: 40%;
+    height: 50px;
+    width: 250px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    background-color: #0022ff;
+    border: none;
+    font-size: 19px;
+    color: #fff;
+    font-family: 'Anek Malayalam', sans-serif;
+    transition: 0.3s;
+}
+
+.vehlist .btn:hover {
+    position: absolute;
+    left: 70%;
+    top: 40%;
+    height: 50px;
+    width: 250px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    background-color: #001ccf;
+    border: none;
+    font-size: 19px;
+    color: #fff;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.6);
+    font-family: 'Anek Malayalam', sans-serif;
+    transition: 0.3s;
+}
+
+.vehlist .btn-sort {
+    position: absolute;
+    left: 70%;
+    top: 40%;
+    height: 50px;
+    width: 250px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    background-color: #b81818;
+    border: none;
+    font-size: 19px;
+    color: #fff;
+    font-family: 'Anek Malayalam', sans-serif;
+    transition: 0.3s;
+}
+
+.vehlist .btn-sort:hover {
+    position: absolute;
+    left: 70%;
+    top: 40%;
+    height: 50px;
+    width: 250px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    background-color: #9b1212;
+    border: none;
+    font-size: 19px;
+    color: #fff;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.6);
+    font-family: 'Anek Malayalam', sans-serif;
+    transition: 0.3s;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #202128;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #0022ff;
+    border-radius: 10px;
+}
